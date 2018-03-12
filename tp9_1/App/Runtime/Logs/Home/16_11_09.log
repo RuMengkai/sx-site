@@ -1,0 +1,1428 @@
+[ 2016-11-09T11:43:17+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 342 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:43:17+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0110s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 342  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:43:45+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 341  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] file_get_contents():  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx77cbff95d092bed4&amp;secret=5cfe5a285c82c678a09975c793be25a4):  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+
+[ 2016-11-09T11:43:45+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 341 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:45:04+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 341  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:45:04+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0020s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 341 [ RunTime:0.0010s ]
+
+[ 2016-11-09T11:45:32+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0060s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 343 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:45:32+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0040s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0010s ]
+
+[ 2016-11-09T11:47:13+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 342 [ RunTime:0.0010s ]
+
+[ 2016-11-09T11:47:13+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 342  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:49:09+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0050s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 341 [ RunTime:0.0030s ]
+
+[ 2016-11-09T11:49:09+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 341  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:51:28+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] file_get_contents():  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx77cbff95d092bed4&amp;secret=5cfe5a285c82c678a09975c793be25a4):  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+
+[ 2016-11-09T11:51:28+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0020s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0020s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 343 [ RunTime:0.0010s ]
+
+[ 2016-11-09T11:51:28+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0020s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0090s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0040s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 343 [ RunTime:0.0030s ]
+
+[ 2016-11-09T11:51:28+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0060s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:51:28+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0060s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 343 [ RunTime:0.0020s ]
+
+[ 2016-11-09T11:51:28+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0010s ]
+
+[ 2016-11-09T11:51:47+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0020s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0040s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 343 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:51:47+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:52:16+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 342  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] file_get_contents():  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx77cbff95d092bed4&amp;secret=5cfe5a285c82c678a09975c793be25a4):  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+
+[ 2016-11-09T11:52:16+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0020s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 342 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:53:31+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0080s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 341 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:53:31+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 341  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:54:19+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0050s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 343 [ RunTime:0.0010s ]
+
+[ 2016-11-09T11:54:19+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0260s ]
+
+[ 2016-11-09T11:54:23+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 342 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:54:24+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 342  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:54:49+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 341  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] file_get_contents():  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx77cbff95d092bed4&amp;secret=5cfe5a285c82c678a09975c793be25a4):  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+
+[ 2016-11-09T11:54:49+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 341 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:54:49+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 341  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:54:49+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 341 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:54:49+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0070s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 342  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0010s ]
+
+[ 2016-11-09T11:54:49+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0050s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0050s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 342 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:54:49+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 341  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0010s ]
+
+[ 2016-11-09T11:56:35+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0020s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 343 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:57:12+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0020s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] file_get_contents():  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx77cbff95d092bed4&amp;secret=5cfe5a285c82c678a09975c793be25a4):  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+
+[ 2016-11-09T11:57:12+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 343 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:57:12+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:57:24+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 342  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+
+[ 2016-11-09T11:57:24+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-09T11:57:49+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0020s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 341  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] file_get_contents():  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx77cbff95d092bed4&amp;secret=5cfe5a285c82c678a09975c793be25a4):  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+
+[ 2016-11-09T11:57:49+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-09T11:58:00+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0050s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 342 [ RunTime:0.0010s ]
+
+[ 2016-11-09T11:58:00+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0040s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 342  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:58:17+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 342  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:58:17+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 342 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:58:43+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 341  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] file_get_contents():  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx77cbff95d092bed4&amp;secret=5cfe5a285c82c678a09975c793be25a4):  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-09T11:58:43+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0040s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 341 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:58:43+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 341  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:58:43+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0020s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 341 [ RunTime:0.0000s ]
+
+[ 2016-11-09T11:58:44+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0040s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 341  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0010s ]
+
+[ 2016-11-09T11:58:44+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 341 [ RunTime:0.0000s ]
+
+[ 2016-11-09T12:01:09+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 342  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+
+[ 2016-11-09T12:01:09+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 342 [ RunTime:0.0000s ]
+
+[ 2016-11-09T12:01:42+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0050s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 343 [ RunTime:0.0000s ]
+
+[ 2016-11-09T12:02:06+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] file_get_contents():  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx77cbff95d092bed4&amp;secret=5cfe5a285c82c678a09975c793be25a4):  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+
+[ 2016-11-09T12:02:18+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+
+[ 2016-11-09T12:02:18+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-09T12:02:18+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-09T12:02:18+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-09T12:02:31+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0040s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+
+[ 2016-11-09T12:02:31+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 343 [ RunTime:0.0010s ]
+
+[ 2016-11-09T12:02:55+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] file_get_contents():  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx77cbff95d092bed4&amp;secret=5cfe5a285c82c678a09975c793be25a4):  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+
+[ 2016-11-09T12:02:55+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-09T12:02:55+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-09T12:02:55+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-09T12:03:07+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0020s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+
+[ 2016-11-09T12:03:07+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-09T12:03:07+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 343 [ RunTime:0.0000s ]
+
+[ 2016-11-09T12:03:19+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+
+[ 2016-11-09T12:03:19+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-09T12:03:19+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-09T12:03:19+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-09T12:03:19+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-09T12:03:31+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0040s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 342  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+
+[ 2016-11-09T12:03:32+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 342 [ RunTime:0.0010s ]
+
+[ 2016-11-09T12:03:56+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0020s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 341  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] file_get_contents():  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx77cbff95d092bed4&amp;secret=5cfe5a285c82c678a09975c793be25a4):  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+
+[ 2016-11-09T12:03:56+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-09T12:11:44+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] file_get_contents():  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx77cbff95d092bed4&amp;secret=5cfe5a285c82c678a09975c793be25a4):  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-09T12:11:44+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 343 [ RunTime:0.0000s ]
+
+[ 2016-11-09T20:21:15+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] file_get_contents():  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx77cbff95d092bed4&amp;secret=5cfe5a285c82c678a09975c793be25a4):  D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 142 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-09T20:21:15+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0020s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0030s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 343 [ RunTime:0.0010s ]
+
+[ 2016-11-09T20:21:16+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/biaoji.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0020s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/biaoji' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0040s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 343 [ RunTime:0.0080s ]
+
+[ 2016-11-09T20:21:28+08:00 ] ::1 /project/tp9_1/index.php/Home/Sign/sendTempMsg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0030s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0060s ]
+SQL: SELECT `uid`,`user`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '61277c90a0a5c0f9b05947ec77860a9c' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=14 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/sendTempMsg' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\project\tp9_1\App\Home\Controller\ComController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign` WHERE `id` = 343  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `id` = 76  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+NOTIC: [2] Missing argument 2 for access_token(), called in D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php on line 150 and defined D:\xampp\htdocs\project\tp9_1\App\Common\Common\function.php 第 137 行.
+

@@ -1,0 +1,1029 @@
+[ 2017-05-08T08:58:02+08:00 ] 117.136.4.106 /tp9_1/index.php/Home/mobile/index.html?uid=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 15 ORDER BY ding,id DESC  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T08:58:11+08:00 ] 101.226.33.205 /tp9_1/index.php/Home/mobile/index.html?uid=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 15 ORDER BY ding,id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T08:58:25+08:00 ] 117.136.4.106 /tp9_1/index.php/Home/mobile/index.html?uid=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 16 ORDER BY ding,id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T08:58:30+08:00 ] 117.136.4.106 /tp9_1/index.php/Home/mobile/index.html?uid=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 16 ORDER BY ding,id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T08:58:34+08:00 ] 117.136.4.106 /tp9_1/index.php/Home/mobile/result.html?uid=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 16 ORDER BY ding,id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T08:58:34+08:00 ] 180.153.206.16 /tp9_1/index.php/Home/mobile/index.html?uid=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 16 ORDER BY ding,id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-05-08T08:58:43+08:00 ] 180.153.214.200 /tp9_1/index.php/Home/mobile/result.html?uid=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 16 ORDER BY ding,id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T10:17:47+08:00 ] 182.140.177.167 /tp9_1/index.php/Home/mobile/result.html?uid=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 15 ORDER BY ding,id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T10:17:57+08:00 ] 101.226.89.120 /tp9_1/index.php/Home/mobile/result.html?uid=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 15 ORDER BY ding,id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:11:58+08:00 ] 183.184.232.101 /tp9_1/index.php/Home/mobile/result.html?uid=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 16 ORDER BY ding,id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.031250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031250s ]
+
+[ 2017-05-08T14:12:02+08:00 ] 183.184.232.101 /tp9_1/index.php/Home/mobile/index.html?uid=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 16 ORDER BY ding,id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:12:04+08:00 ] 183.184.232.101 /tp9_1/index.php/Home/mobile/index.html?uid=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 16 ORDER BY ding,id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:38:48+08:00 ] 118.247.193.120 /tp9_1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 23 行.
+
+[ 2017-05-08T14:38:48+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 C:\xampp\htdocs\tp9_1\App\Home\Controller\LoginController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:38:49+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:38:56+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0156s ]
+SQL: SELECT `uid`,`user` FROM `qw_member` WHERE `user` = 'sxujob' AND `password` = '83254af89b2408583696f088e5ac63a1' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: UPDATE `qw_member` SET `identifier`='6404d391812819b43a603463976bd662',`token`='58ae1ddad176e69f192468352be0a439',`salt`='qEDFRz7FmG' WHERE `uid` = 15 [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:38:57+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0313s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.250007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.250007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:39:09+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/signList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/signList' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_sign_list` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE ( uid=15 ) ORDER BY ding,id DESC LIMIT 0,15   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:39:18+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/looks.html?id=19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/looks' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_sign` WHERE ( classid=19 AND uid=15 ) LIMIT 1   [ RunTime:0.0625s ]
+SQL: SELECT * FROM `qw_sign` WHERE ( classid=19 AND uid=15 ) ORDER BY dateline asc LIMIT 0,15   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:39:23+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/looks/id/19/p/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/looks' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_sign` WHERE ( classid=19 AND uid=15 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign` WHERE ( classid=19 AND uid=15 ) ORDER BY dateline asc LIMIT 105,15   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:39:30+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/looks/id/19/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0156s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/looks' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_sign` WHERE ( classid=19 AND uid=15 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign` WHERE ( classid=19 AND uid=15 ) ORDER BY dateline asc LIMIT 75,15   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:39:33+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/looks/id/19/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/looks' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_sign` WHERE ( classid=19 AND uid=15 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign` WHERE ( classid=19 AND uid=15 ) ORDER BY dateline asc LIMIT 90,15   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:39:37+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/audit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/audit' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0000s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 1065 [ RunTime:0.2344s ]
+
+[ 2017-05-08T14:39:37+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/audit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/audit' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0000s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 1066 [ RunTime:0.0000s ]
+
+[ 2017-05-08T14:39:38+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/audit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/audit' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0000s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 1067 [ RunTime:0.0000s ]
+
+[ 2017-05-08T14:39:39+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/audit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0156s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/audit' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0000s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 1068 [ RunTime:0.0000s ]
+
+[ 2017-05-08T14:39:43+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/looks/id/19/p/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/looks' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_sign` WHERE ( classid=19 AND uid=15 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign` WHERE ( classid=19 AND uid=15 ) ORDER BY dateline asc LIMIT 105,15   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:39:45+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/audit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0156s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/audit' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0000s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 1069 [ RunTime:0.0000s ]
+
+[ 2017-05-08T14:39:45+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/audit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/audit' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0000s ]
+SQL: UPDATE `qw_sign` SET `display`='1' WHERE `id` = 1070 [ RunTime:0.0000s ]
+
+[ 2017-05-08T14:39:50+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/looks/id/19/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/looks' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_sign` WHERE ( classid=19 AND uid=15 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign` WHERE ( classid=19 AND uid=15 ) ORDER BY dateline asc LIMIT 0,15   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:39:53+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/signList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0156s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/signList' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_sign_list` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE ( uid=15 ) ORDER BY ding,id DESC LIMIT 0,15   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T14:41:17+08:00 ] 118.247.193.120 /tp9_1/index.php/Home/Sign/signList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '6404d391812819b43a603463976bd662' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Sign/signList' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qw_sign_list` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE ( uid=15 ) ORDER BY ding,id DESC LIMIT 0,15   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\tp9_1\App\Home\Controller\ComController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T15:28:44+08:00 ] 123.151.138.100 /tp9_1/index.php/Home/mobile/result.html?uid=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 16 ORDER BY ding,id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T15:28:54+08:00 ] 123.151.138.100 /tp9_1/index.php/Home/mobile/index.html?uid=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 16 ORDER BY ding,id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T21:26:12+08:00 ] 123.151.42.48 /tp9_1/index.php/Home/mobile/index.html?uid=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+SQL: SHOW COLUMNS FROM `qw_sign_list` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `qw_sign_list` WHERE `uid` = 15 ORDER BY ding,id DESC  [ RunTime:0.0313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.296883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.296883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-05-08T23:32:49+08:00 ] 118.199.223.181 /tp9_1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0156s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0781s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '25ccc7adfd4d532481debf7e844f5309' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-08T23:32:54+08:00 ] 118.199.223.181 /tp9_1/index.php/Home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '25ccc7adfd4d532481debf7e844f5309' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T23:32:59+08:00 ] 118.199.223.181 /tp9_1/index.php/Home/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0156s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T23:36:57+08:00 ] 118.199.223.181 /tp9_1/index.php/Home/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.046876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046876s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user` FROM `qw_member` WHERE `user` = 'sxujob' AND `password` = '83254af89b2408583696f088e5ac63a1' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: UPDATE `qw_member` SET `identifier`='35730186773a9aef2330c0b4dfa3dea0',`token`='2c12808d1be3d7ebe76f2c4d4a62f82c',`salt`='JjBjfsQvub' WHERE `uid` = 15 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-08T23:36:59+08:00 ] 118.199.223.181 /tp9_1/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qw_setting` [ RunTime:0.0000s ]
+SQL: SELECT `k`,`v` FROM `qw_setting`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qw_member` [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`user`,`fid`,`desc`,`identifier`,`token`,`salt` FROM `qw_member` WHERE `identifier` = '35730186773a9aef2330c0b4dfa3dea0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM qw_auth_group g left join qw_auth_group_access a on g.id=a.group_id where a.uid=15 [ RunTime:0.0625s ]
+SQL: SELECT * FROM `qw_member` WHERE `uid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT s.id,s.title,s.name,s.tips,s.pid,p.pid as ppid,p.title as ptitle FROM qw_auth_rule s left join qw_auth_rule p on p.id=s.pid where s.name='Index/index' [ RunTime:0.0313s ]
+SQL: SHOW COLUMNS FROM `qw_auth_rule` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`name`,`icon` FROM `qw_auth_rule` WHERE ( islink=1 AND id in (67,69,78,80,68,79,48,49,50,55)  ) ORDER BY o ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

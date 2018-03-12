@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta charset="utf-8" />
+	<title>活动列表-{$Think.CONFIG.title}</title>
+
+	<meta name="keywords" content="{$Think.CONFIG.keywords}" />
+	<meta name="description" content="{$Think.CONFIG.description}" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<include file="Public/head" />
+	<script src="__PUBLIC__/Home/js/jquery-1.9.1.js"></script>
+	<script src="__PUBLIC__/Home/Layer/layer.js"></script>
+	<script>
+		// 置顶操作
+		function ding(id,did){
+			$("#del"+id+" td").css('background','#FFFFEC');
+			$.post("{:U('Sign/ding')}", { "id": id,"did": did},function(data){
+				if(data == 1){
+					layer.msg('操作成功',function(){
+						location.reload();
+					});
+				}else{
+					layer.msg('操作失败'); 
+				}
+			}, "json");
+		}
+		// 删除操作
+		function del(id){
+			if (confirm("确定删除？")) {
+				$("#del"+id+" td").css('background','#FFFFEC');
+				
+				$.post("{:U('Sign/del')}", { "id": id},function(data){
+					if(data == 1){
+						layer.msg('删除成功',function(){
+							location.reload();
+						});
+					}else{
+						layer.msg('删除失败'); 
+					}
+				}, "json");
+			}
+		}
+		// 发送链接
+		function fasong(id){
+			$.post("{:U('Sign/fasong')}", { "id": id},function(data){
+				if(data == 1){
+					var count = 120;
+					var countdown = setInterval(CountDown, 1000);;
+					function CountDown() {
+						$("#btn_"+id).attr("disabled", true);
+						$("#btn_"+id).val(+ count + " 秒重发");
+						if (count == 0) {
+							$("#btn_"+id).val("发送微信预览").removeAttr("disabled");
+							clearInterval(countdown);
+						}
+						count--;
+					}
+					layer.msg('发送成功',function(){
+					});
+				}else{
+					layer.msg('发送失败或没有绑定微信'); 
+				}
+			}, "json");
+			
+		}
+	</script>
+</head>
+
+<body class="no-skin">
+	<include file="Public/header" />
+	<div class="main-container" id="main-container">
+		<script type="text/javascript">
+			try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+		</script>
+
+		<include file="Public/sidebar" />
+		<div class="main-content">
+			<div class="main-content-inner">
+				<!-- #section:basics/content.breadcrumbs -->
+				<include file="Public/breadcrumbs" /><!--面包屑-->
+
+				<!-- /section:basics/content.breadcrumbs -->
+				<div class="page-content">
+					<include file="Public/set" />
+
+					<!-- /section:settings.box -->
+					<div class="row">
+						<div class="col-xs-12">
+							<!-- PAGE CONTENT BEGINS -->
+							
+							<div class="row">
+								<form class="form-inline" action="" method="get">
+									<!-- <a class="btn btn-info" href="{:U('add')}" value="">发布活动</a>&nbsp;&nbsp; -->
+									<select name="field" class="form-control">
+										<option value="title">标题</option>
+									</select>
+									<input type="text" name="keyword" class="form-control">
+									<button type="submit" class="btn btn-purple btn-sm">
+										<span class="ace-icon fa fa-search icon-on-right bigger-110"></span>
+										搜索
+									</button>
+								</form>
+							</div>
+							
+							<div class="space-4"></div>
+							<div class="row">
+								<form id="form" method="post" action="{:U('del')}">
+									<table class="table table-striped table-bordered table-hover">
+										<thead>
+											<tr>
+												<th>名称</th>
+												<th class="center">限定名额</th>
+												<th class="center">已报名</th>
+												<th class="center">开始时间</th>
+												<th class="center">发布时间</th>
+												<th class="center">查看报名</th>
+												<th class="center">当前状态</th>
+												<!-- <th class="center">发送预览</th>-->
+												<if condition="$username eq 'sxujob'">
+													<th class="center">操作</th>
+												</if>
+												<if condition="$username eq 'sxucypx'">
+													<th class="center">操作</th>
+												</if>
+											</tr>
+										</thead>
+										<tbody>
+											<volist name="list" id="val">
+												<tr id="del{$val.id}"  <if condition="$val['ding'] eq 1">bgcolor="#FFFFEC"</if>>
+													<td>{$val['title']}</td>
+													<td class="center">{$val['xdnum']}</td>
+													<td class="center">{$val['ybnum']}</td>
+													<td class="center">{$val['ktime']|date="m-d H:i",###}</td>
+													<td class="center">{$val['dateline']|date="m-d H:i",###}</td>
+													<td class="center"><a href="{:U('looks')}?id={$val.id}">参报名单</a></td>
+													<td class="center"><if condition="$val['ding'] eq 1"><span style="color:#CC0000">已置顶</span><else /><span style="color:#999">未置顶</span></if></td>
+													<!-- <td class="center"><input type="button" id="btn_{$val.id}" value="发送微信预览" onclick="fasong({$val.id})" /></td>-->
+													<if condition="$username eq 'sxujob'">
+														<td class="center">
+															<if condition="$val['ding'] neq 1">
+																<a href="javascript:;" onclick="ding({$val.id},1)">置顶</a>
+															<else />
+																<a href="javascript:;" onclick="ding({$val.id},0)">取消</a>
+															</if>&nbsp;&nbsp;
+
+																<a href="{:U('Sign/sedit')}?id={$val.id}">修改</a>&nbsp;&nbsp;
+															
+															<a href="javascript:;" onclick="del({$val.id})">删除</a>
+														</td>
+													</if>
+													<if condition="$username eq 'sxucypx'">
+														<td class="center">
+															<if condition="$val['ding'] neq 1">
+																<a href="javascript:;" onclick="ding({$val.id},1)">置顶</a>
+															<else />
+																<a href="javascript:;" onclick="ding({$val.id},0)">取消</a>
+															</if>&nbsp;&nbsp;
+															<a href="{:U('Sign/sedit')}?id={$val.id}">修改</a>&nbsp;&nbsp;
+															<a href="javascript:;" onclick="del({$val.id})">删除</a>
+														</td>
+													</if>
+												</tr>
+											</volist>
+										</tbody>
+									</table>
+									<if condition='$val.id eq ""'>
+										<tr>暂无发布的课程</tr>
+									</if>
+								</form>
+								{$page}
+							</div>
+							
+							<!-- PAGE CONTENT ENDS -->
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.page-content -->
+			</div>
+		</div><!-- /.main-content -->
+		<include file="Public/footer" />
+		
+	</div><!-- /.main-container -->
+
+	<include file="Public/footerjs" />
+	<!-- inline scripts related to this page -->
+
+</body>
+</html>

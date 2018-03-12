@@ -1,0 +1,24 @@
+[ 2016-09-28T19:47:22+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Message/query.html
+ERR: 无法加载控制器:Message
+
+[ 2016-09-28T19:53:13+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Message/query.html
+ERR: 无法加载控制器:Message
+
+[ 2016-09-28T19:55:40+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Message/query.html
+ERR: 无法加载控制器:Message
+
+[ 2016-09-28T19:58:54+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Message/query.html
+ERR: 无法加载控制器:Message
+
+[ 2016-09-28T20:04:20+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Message/query.html
+ERR: 无法加载控制器:Message
+
+[ 2016-09-28T20:04:29+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Message/query.html
+ERR: 无法加载控制器:Message
+
+[ 2016-09-28T20:46:06+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Message/query.html
+ERR: 非法操作:query
+
+[ 2016-09-28T20:47:19+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Message/index.html
+ERR: 模板不存在:./App/Qwadmin/View/Message/index.html
+

@@ -1,0 +1,45 @@
+[ 2016-09-30T11:11:16+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/update_score.html
+ERR: 参数错误或者未定义:id
+
+[ 2016-09-30T11:17:33+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/edit.html?id=2
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+
+[ 2016-09-30T11:29:41+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/edit.html?uid=2
+ERR: 参数错误或者未定义:id
+
+[ 2016-09-30T11:29:49+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/edit.html?uid=3
+ERR: 参数错误或者未定义:id
+
+[ 2016-09-30T12:22:28+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/update_score.html
+ERR: 模板不存在:./App/Qwadmin/View/Score/update_score.html
+
+[ 2016-09-30T12:23:05+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/update_score.html
+ERR: 模板不存在:./App/Qwadmin/View/Score/update_score.html
+
+[ 2016-09-30T12:24:21+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/update.html
+ERR: 模板不存在:./App/Qwadmin/View/Score/update.html
+
+[ 2016-09-30T12:24:24+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/update.html
+ERR: 模板不存在:./App/Qwadmin/View/Score/update.html
+
+[ 2016-09-30T12:24:27+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/update.html
+ERR: 模板不存在:./App/Qwadmin/View/Score/update.html
+
+[ 2016-09-30T12:24:29+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/update.html
+ERR: 模板不存在:./App/Qwadmin/View/Score/update.html
+
+[ 2016-09-30T12:24:32+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/update.html
+ERR: 模板不存在:./App/Qwadmin/View/Score/update.html
+
+[ 2016-09-30T12:25:39+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/update.html
+ERR: 模板不存在:./App/Qwadmin/View/Score/update.html
+
+[ 2016-09-30T12:26:26+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/update.html
+ERR: 模板不存在:./App/Qwadmin/View/Score/update.html
+
+[ 2016-09-30T12:46:37+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/update.html
+ERR: 模板不存在:./App/Qwadmin/View/Score/update.html
+
+[ 2016-09-30T12:47:19+08:00 ] ::1 /tp9_1/index.php/Qwadmin/Score/update.html
+ERR: 模板不存在:./App/Qwadmin/View/Score/update.html
+

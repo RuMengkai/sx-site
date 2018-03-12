@@ -1,0 +1,9 @@
+.title{margin: 20px 0;}
+/*applylist*/
+.applylist{margin-top: 0px; width: 100%;display: flex;justify-content: space-around;}
+.applylist ul{width: 97%;}
+.applylist ul li{display: flex;justify-content: space-around;align-items:center;border-radius: 5px;box-shadow: 0 0 5px #ccc;height: 87px;background: #fff;margin-top: 8px;}
+.applylist ul li img{margin-left:22px;}
+.applylist ul li .name{margin-left:22px;flex: 1;}
+.applylist ul li span{color:#666;margin-right:30px;font-size: 30px;}
+

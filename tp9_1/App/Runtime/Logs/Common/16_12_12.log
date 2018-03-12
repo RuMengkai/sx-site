@@ -1,0 +1,12 @@
+[ 2016-12-12T12:32:03+08:00 ] ::1 /tp9_1/Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-12T12:32:08+08:00 ] ::1 /tp9_1/Public/attached/201601/1453389194.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+

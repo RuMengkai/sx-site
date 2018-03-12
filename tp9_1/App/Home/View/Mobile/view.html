@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+<meta http-equiv="Cache-control" content="no-cache" />
+<meta name="viewport" content="width=device-width, initial-scale=0.6, minimum-scale=0.6, maximum-scale=0.6"/>
+<meta name="MobileOptimized" content="240"/>
+<meta name="Iphone-content" content="320"/>
+<meta name="format-detection" content="telephone=no" />
+<title>{$classInfo.title}</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/view.css"/>
+
+</head>
+
+<body style="position:relative">
+<div class="top">
+	<a class="return" href="{:U('mobile/index')}?uid={$uid}"></a>
+	<p>
+		<img src="__PUBLIC__/Home/images/top_05.png"/>
+		课程内容
+		<img src="__PUBLIC__/Home/images/top_07.png"/>
+	</p>
+	<a class="menu" href="#"></a>
+</div>
+<div class="classinfo">
+	<div class="p">
+		<div class="fen"></div>
+		{$classInfo.title}
+	</div>
+	<ul>
+		<li>
+			<p>{$classInfo.xdnum}</p>
+			<p>限定名额</p>
+		</li>
+		<li>
+			<p>
+				<if condition="$classInfo[xdnum]-$classInfo[ybnum] gt 0">
+					{$classInfo[xdnum]-$classInfo[ybnum]}
+				<else />
+				0
+				</if>
+			</p>
+			<p>剩余名额</p>
+		</li>
+		<li>
+			<p>{$classInfo[ybnum]}</p>
+			<p>已报名额</p>
+		</li>
+	</ul>
+</div>
+<div class="content">
+	<!--<h3 class="">主题：{$classInfo.title}</h3>-->
+	<p class="">{$classInfo[content]}</p>
+	<li>时间：{$ktime}</li>
+	<li>地址：{$classInfo.address}</li>
+</div>
+<div class="submit">
+    <if condition="$ktimes egt $time">
+    	<if condition="$classInfo[ybnum] lt $classInfo[xdnum]">
+   			<a class="button" href="{:U('mobile/add')}" >我要报名</a>
+   		<else />
+		    <a class="button" href="{:U('mobile/add')}" >名额已满，进入备选</a>
+		</if>
+    <else />
+   		<a class="button stop" href="#" >报名截止</a>
+    </if>
+</div>
+<p>&nbsp;&nbsp;已报名：</p>
+<div class="applylist">
+	
+	<ul>
+   		<if condition="$classInfo[ybnum] neq 0">
+			<volist name="list" id="val">
+			<li>
+				<img src="__PUBLIC__/Home/images/view_41.png"/>
+				<span class="name">
+					{$val.name}
+				</span>
+				<span>{$val.stunumber}</span>
+			</li>
+			</volist>
+	    	<else />
+	        	<li>目前还没人报名，</li>
+	     </if>
+	</ul>
+</div>
+<div class="footer">
+	&copy;2016 山西大学就业指导中心 版权所有
+</div>
+<script type="text/javascript" src="__PUBLIC__/Home/js/jquery.min.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Home/js/jquery.downCount.js"></script> 
+<script type="text/javascript">
+	$('.countdown').downCount({
+		date: '{$classInfo.ktime|date="Y-m-d H:i:s",###}',
+		offset: +8
+	}, function () {
+		//alert('本期课程已结束!');
+	});
+	$(document).ready(function (){
+		$(".btn_qx").click(function (){
+		   window.location.href = '#bml';
+		   $(ssuo).addClass("twinkling"); 
+		});
+	});
+	
+</script>
+</body>
+</html>

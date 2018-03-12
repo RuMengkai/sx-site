@@ -1,0 +1,30 @@
+.classinfo{width: 100%; height: 220px;background: #1254a3;color: #fff;}
+.fen{width:309px;height: 1px;
+background: -webkit-radial-gradient(center, #fff, #1679ed);
+background: -moz-radial-gradient(center,#fff, #1679ed);
+background: -o-radial-gradient(center, #fff, #1679ed);
+background: -webkit-gradient(linear, 0 0, 0 100%, from(center), color-stop(0.5, #f00), to(#fff));
+background: radial-gradient(center, #fff, #1679ed);}
+.classinfo>.p{border-bottom-left-radius:5px ;border-bottom-right-radius:5px ; font-size: 27px; line-height:65px ; width: 309px;height: 65px;background: #1679ed;margin: 0 auto;text-align: center;}
+.classinfo ul{width: 90%;height: 76px;margin: 45px auto;overflow: hidden;}
+.classinfo ul li{text-align:center;float: left;width:33% ;}
+.classinfo ul li p:first-child{font-weight: bold;font-size: 32px;}
+/*content*/
+.content h3{font-size: 30px;font-weight: 100;}
+.content{width: 100%;padding:20px 50px;box-sizing: border-box}
+.content p{margin-top:10px;font-size: 24px;text-indent: 2em;text-align: justify;line-height: 50px;}
+.content li{margin-top:10px;font-size: 24px;text-align: justify;line-height: 50px;}
+/*submit*/
+.submit .button{bottom: 2%;position: fixed;border-radius:60px ; left: 20%;text-align: center; width: 60%;padding: 22px 0;height: 40px; color: #fff;font-size: 34px;}
+.submit .button:active{background: #1569cb;}
+.submit .button{background: #1679ed;}
+.submit .button.stop{background: #aaa;color: #666;}
+.submit .button.limit{background: #aaa;color: #666;}
+/*applylist*/
+.applylist{margin-top: 0px; width: 100%;display: flex;justify-content: space-around;}
+.applylist ul{width: 97%;}
+.applylist ul li{display: flex;justify-content: space-around;align-items:center;border-radius: 5px;box-shadow: 0 0 5px #ccc;height: 87px;background: #fff;margin-top: 8px;}
+.applylist ul li img{margin-left:22px;}
+.applylist ul li .name{margin-left:22px;flex: 1;}
+.applylist ul li span{color:#666;margin-right:30px;font-size: 30px;}
+
